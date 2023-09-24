@@ -127,19 +127,6 @@ h2.course-main-heading {
   .courses-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-  }
-  
-
-}
-
-
-@media only screen and (max-width: 480px) {
-
-
-  .courses-grid {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
     gap: 30px;
   }
 
@@ -167,5 +154,22 @@ h3.course-head {
     font-size: 14px;
 }
   
+
+.intro img {
+  max-width: 150px;
+}
+
+.intro {
+  margin: 20px 0;
+}
+
+.container {
+  margin: 20px 0;
+}
+
+h2.course-main-heading {
+  font-size:20px;
+  margin-bottom:15px;
+}
 
 }
