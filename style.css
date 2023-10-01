@@ -68,7 +68,7 @@ a.home-link {
 }
 
 .course-wrapper {
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 
@@ -133,6 +133,42 @@ h2.course-main-heading {
   border-radius: 10px;
 }
 
+.follow-social-wrapper {
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+i.fa-brands {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+}
+
+.follow-social {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.follow-social a {
+  text-decoration: none;
+  color : #000;
+}
+
+.fa-brands {
+  font-size: 30px;
+}
+
+.follow-social .col-4 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+h2.follow-social-heading {
+  text-align: center;
+  margin-bottom:10px;
+}
 
 @media only screen and (max-width: 991px) {
 .courses-grid {
