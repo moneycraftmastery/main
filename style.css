@@ -35,6 +35,11 @@ img {
 }
 
 
+.intro:hover h4.intro-text {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 
 a.home-link {
   position: absolute;
