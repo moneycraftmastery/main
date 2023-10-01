@@ -143,7 +143,6 @@ h2.course-main-heading {
     margin: 20px 0;
   }
 
-
   .courses-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
