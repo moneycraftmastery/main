@@ -150,6 +150,10 @@ h2.course-main-heading {
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
+
+  .intro img {
+    max-width: 50px;
+  }
   
 
 }
@@ -189,13 +193,8 @@ h3.course-head {
     font-size: 14px;
 }
   
-
-.intro img {
-  max-width: 150px;
-}
-
 .intro {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .container {
